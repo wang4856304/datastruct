@@ -83,7 +83,7 @@ public class LinkList<E> {
     }
 
     public static void main(String args[]) {
-        LinkList<String> linkList = new LinkList<String>();
+        LinkList<String> linkList = new LinkList<>();
         linkList.add("1");
         linkList.add("2");
         linkList.add("3");
